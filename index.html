@@ -16,6 +16,7 @@
         }
         body{
             font-family: Arial, Helvetica, sans-serif;
+            
         }
     </style>
 </head>
@@ -27,16 +28,16 @@
                     <img src="img/logo.png" alt="logo" width="150px">
                     <ul class="right">
                     <li>   
-                    <a class="orange-text text-darken-4 " href="">Home</a>
+                    <a class="orange-text text-darken-4 " href="#hello">Home</a>
                     </li>
                      <li>
-                    <a class="orange-text text-darken-4 " href="">cakes</a>
+                    <a class="orange-text text-darken-4 " href="#cake">cakes</a>
                     </li>
                      <li>
-                    <a class="orange-text text-darken-4 " href="">Soup</a>
+                    <a class="orange-text text-darken-4 " href="#soup">Soup</a>
                     </li>
                      <li>
-                    <a class="orange-text text-darken-4 " href="">Chicken</a>
+                    <a class="orange-text text-darken-4 " href="#chicken">Chicken</a>
                     </li>
                      <li>
                     <a class="orange-text text-darken-4 " href="">Reviews</a>
@@ -64,7 +65,7 @@
     <main>
         <!-- introduction -->
          <div class="container">
-            <h1 class="orange-text text-darken-4">Hello there, foodies!</h1>
+            <h1 class="orange-text text-darken-4" id="hello">Hello there, foodies!</h1>
             <p>
                 Welcome to your new favourite corner of the web where deliciousness meets simplicity. Whether you're craving something sweet and fluffy like a freshly baked cake, in the mood for a hearty and flavourful chicken dish, or looking for comfort in a warm bowl of soup, you'll find it all right here. Our recipies are crafted to be easy to follow, packed with flavour, and perfect for every occasion-whether you're cooking for family, friends, or just yourself. So grab your apron and lets make something mouthwatering together!
             </p>
@@ -162,7 +163,7 @@
             </div>
          </div>
        </div>
-        <div class="parallax-container">
+        <div class="parallax-container" id="cake">
             <div class="parallax">
                 <img src="img/cake.jpg" alt="cake" class="responsive-img">
             </div>
@@ -235,7 +236,7 @@
             <button class="btn-flat orange darken-4 white-text ">SEE ALL RECIPES</button>
             </div>
         </div>
-        <div class="parallax-container">
+        <div class="parallax-container" id="soup">
             <div class="parallax">
                 <img src="img/soup.jpg" alt="soup" class="responsive-img">
             </div>
@@ -308,7 +309,7 @@
             <button class="btn-flat orange darken-4 white-text ">SEE ALL RECIPES</button>
             </div>
         </div>
-        <div class="parallax-container">
+        <div class="parallax-container" id="chicken">
             <div class="parallax">
                 <img src="img/chicken.jpg" alt="chicken" class="recpinsive-img">
             </div>
@@ -384,8 +385,84 @@
             <button class="btn-flat orange darken-4 white-text ">SEE ALL RECIPES</button>
             </div>
         </div>
+        <div class="grey">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 l6">
+                    <div class="card-content">
+                        <h1> Contact Us Today</h1>
+                        <p>Do you want to submit a new recipe? Send a message to get started.</p>
+                    </div>
+                    <div class="card-action">
+                        <button class="btn-flat orange darken-4 white-text">CALL US NOW <i class="material-icons">call</i> </button>
+                         
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
     </main>
-    <footer></footer>
+    <footer class="black page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card hoverable black">
+                        <div class="card-img">
+                            <img class="responsive-img" src="img/logo.png" alt="logo" width="195px">
+                            <p class="white-text">
+                                Your one stop for all cake, soup, and chicken recipes. Make somethinggood today.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <!-- <div class="card hoverable black">
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">
+                                Recipe.com
+                            </h5>
+                            <p class="white-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nulla veritatis libero aut odit similique error doloribus. Unde, nobis soluta. Repellat veritatis sunt natus iure quibusdam, odio praesentium! Odit, quasi!
+                            </p>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card hoverable black">
+                        <div class="card-content">
+                            <h5 class="orange-text text-darken-4">
+                                Quick Links
+                            </h5>
+                            <ul>
+                                <li>
+                                    <a class="white-text" href="">Back to top</a>
+                                </li>
+                                <li>
+                                    <a class="white-text" href="">Cakes</a>
+                                </li>
+                                <li>
+                                    <a class="white-text" href="">Soups</a>
+                                </li>
+                                <li>
+                                    <a class="white-text" href="">Chicken</a> 
+                                </li>
+                                <li>
+                                    <a class="white-text" href="">Reviews</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="orange darken-4 footer-copyright">
+            <div class="container">
+            <h4 class="white-text center-align">
+                &copy; Recipe.com | CORE-TECH
+            </h4>
+            </div>
+        </div>
+    </footer>
 
 
     <!-- java script -->
