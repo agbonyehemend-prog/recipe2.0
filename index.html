@@ -6,6 +6,9 @@
     <title>Recipe.com</title>
     <link rel="stylesheet" href="css/materialize.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <style>
         div>button{
              margin-bottom: 25px;
@@ -14,9 +17,8 @@
             position: fixed;
             z-index: 50;
         }
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            
+        *{
+            font-family: "Josefin Sans", sans-serif;
         }
     </style>
 </head>
@@ -203,9 +205,9 @@
                             <img src="img/sponge_cake.webp" alt="sponge_cake" class="responsive-img">
                         </div> 
                         <div class="card-content">
-                            <h4 class="orange-text text-darken-4">
+                            <h5 class="orange-text text-darken-4 ">
                                 Sponge Cake     
-                            </h4>
+                            </h5>
                             <p>
                                 A light, fluffy classic perfect for any occasion
                             </p>
@@ -222,9 +224,9 @@
                             <img src="img/velvet_cake.webp" alt="velvet_cake" class="responsive-img">
                         </div> 
                         <div class="card-content">
-                            <h4 class="orange-text text-darken-4">
+                            <h5 class="orange-text text-darken-4">
                                 Velvet Cake     
-                            </h4>
+                            </h5>
                             <p>
                                 Rich, moist, and elegantly smooth with a hint of cocoa.
                             </p>
@@ -241,9 +243,9 @@
                             <img src="img/courgette_cake.webp" alt="courgette_cake" class="responsive-img">
                         </div> 
                         <div class="card-content">
-                            <h4 class="orange-text text-darken-4">
+                            <h5 class="orange-text text-darken-4">
                                 Courgette Cake     
-                            </h4>
+                            </h5>
                             <p>
                                 A moist and wholesome cake with a fresh twist from courgette.
                             </p>
@@ -279,9 +281,9 @@
                             <img src="img/lentil_soup.webp" alt="lentil_soup" class="responsive-img">
                         </div> 
                         <div class="card-content">
-                            <h4 class="orange-text text-darken-4">
+                            <h5 class="orange-text text-darken-4">
                                 lentil soup   
-                            </h4>
+                            </h5>
                             <p>
                                 Hearty, protein-packed, and perfect for a filling meal.
                             </p>
@@ -298,9 +300,9 @@
                             <img src="img/olive_soup.webp" alt="olive_soup" class="responsive-img">
                         </div> 
                         <div class="card-content">
-                            <h4 class="orange-text text-darken-4">
+                            <h5 class="orange-text text-darken-4">
                                 Olive Soup    
-                            </h4>
+                            </h5>
                             <p>
                                 A Mediterranean-inspired soup with bold, briny flavors.
                             </p>
@@ -317,9 +319,9 @@
                             <img src="img/miso_soup.webp" alt="miso" class="responsive-img">
                         </div> 
                         <div class="card-content">
-                            <h4 class="orange-text text-darken-4">
+                            <h5 class="orange-text text-darken-4">
                                 Miso Soup     
-                            </h4>
+                            </h5>
                             <p>
                                 A light Japanese classic with salvory umami richness.
                             </p>
@@ -358,9 +360,9 @@
                             <img src="img/chicken_5.webp" alt="chicken_5" class="responsive-img">
                         </div> 
                         <div class="card-content">
-                            <h4 class="orange-text text-darken-4">
+                            <h5 class="orange-text text-darken-4">
                                 Oregano Wings
-                            </h4>
+                            </h5>
                             <p>
                                 Crispy chicken wings infused with fragrant oregano seasoning.
                             </p>
@@ -377,9 +379,9 @@
                             <img src="img/chicken_11.webp" alt="chicken_11" class="responsive-img">
                         </div> 
                         <div class="card-content">
-                            <h4 class="orange-text text-darken-4">
+                            <h5 class="orange-text text-darken-4">
                                 Masked Chicken   
-                            </h4>
+                            </h5>
                             <p>
                                 Tender wings coated wit flavorful, mashed-style marinade.
                             </p>
@@ -396,9 +398,9 @@
                             <img src="img/miso_soup.webp" alt="miso" class="responsive-img">
                         </div> 
                         <div class="card-content">
-                            <h4 class="orange-text text-darken-4">
+                            <h5 class="orange-text text-darken-4">
                                 Buttered Chicken     
-                            </h4>
+                            </h5>
                             <p>
                                 Golden, juicy wings tossed in rich, melted butter.
                             </p>
@@ -414,29 +416,21 @@
             <button class="btn-large orange darken-4 white-text ">SEE ALL RECIPES</button>
             </div>
         </div>
+        <section>
         <div class="container">
             <div class="row">
                 <div class="col s12 m6 l6">
-                    <div class="card-content">
                         <h1> Contact Us Today</h1>
                         <p>Do you want to submit a new recipe? Send a message to get started.</p>
+                        <button class="btn-large orange darken-4 white-text">CALL US NOW <i class="material-icons">call</i> </button>
                     </div>
-                    <div class="card-action">
-                        <button class="btn-flat orange darken-4 white-text">CALL US NOW <i class="material-icons">call</i> </button>
-                         
-                    </div>
-                </div>
                 <div class="col s12 m6 l6">
-                    <div class="card-content">
                         <form action="">
-                            <label for="email">enter your email</label>
-        <input type="email" name="" id="email">
+                            <!-- <label for="email">enter your email</label> -->
+                            <input type="email" name="" id="email">
                         </form>
-                    </div>
-                    <div class="card-action">
-                        <button class="btn-flat orange darken-4 white-text">CALL US NOW <i class="material-icons">call</i> </button>
-                         
-                    </div>
+                        <!-- <button class="btn-flat orange darken-4 white-text">CALL US NOW <i class="material-icons">call</i> </button> -->
+                        
                 </div>
             </div>
         </div>
