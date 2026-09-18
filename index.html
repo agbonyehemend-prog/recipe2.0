@@ -26,7 +26,10 @@
             <nav class="white">
                 <div class="container">
                     <img src="img/logo.png" alt="logo" width="150px">
-                    <ul class="right">
+                    <a href="#sidenav" class="sidenav-trigger">
+                        <i class="material-icons orange-text text-darken-4">menu</i> 
+                    </a>
+                    <ul class="right hide-on-med-and-down">
                     <li>   
                     <a class="orange-text text-darken-4 " href="#hello">Home</a>
                     </li>
@@ -41,6 +44,23 @@
                     </li>
                      <li>
                     <a class="orange-text text-darken-4 " href="">Reviews</a>
+                    </li>
+                    </ul>
+                    <ul class="sidenav orange darken-4" id="sidenav">
+                    <li>   
+                    <a class="white-text " href="#hello">Home</a>
+                    </li>
+                     <li>
+                    <a class="white-text " href="#cake">cakes</a>
+                    </li>
+                     <li>
+                    <a class="white-text " href="#soup">Soup</a>
+                    </li>
+                     <li>
+                    <a class="white-text " href="#chicken">Chicken</a>
+                    </li>
+                     <li>
+                    <a class="white-text " href="">Reviews</a>
                     </li>
                     </ul>
                 </div>
@@ -163,11 +183,14 @@
             </div>
          </div>
        </div>
-        <div class="parallax-container" id="cake">
+       <section>
+       <img class="responsive-img hide-on-large-only" src="img/cake.jpg" alt="cake">
+        <div class="parallax-container hide-on-med-and-down" id="cake">
             <div class="parallax">
                 <img src="img/cake.jpg" alt="cake" class="responsive-img">
             </div>
         </div>  
+        </section>
         <div class="container">
             <h1 class="orange-text text-darken-4">Cakes</h1>
             <p>
@@ -236,11 +259,14 @@
             <button class="btn-flat orange darken-4 white-text ">SEE ALL RECIPES</button>
             </div>
         </div>
-        <div class="parallax-container" id="soup">
+        <section>
+            <img src="img/soup.jpg " alt="soup" class="responsive-img hide-on-large-only"> 
+        <div class="parallax-container hide-on-med-and-down" id="soup">
             <div class="parallax">
                 <img src="img/soup.jpg" alt="soup" class="responsive-img">
             </div>
         </div>
+        </section>
         <div class="container">
             <h1 class="orange-text text-darken-4">Soups</h1>
             <p>
@@ -473,6 +499,7 @@
         $('.slider').slider({height:500});
         $('.collapsible').collapsible();
         $('.parallax').parallax();
+        $('.sidenav').sidenav();
         })
          </script>
 </body>
