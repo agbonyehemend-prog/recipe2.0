@@ -213,8 +213,20 @@
                             </p>
                         </div>
                         <div class="card-action center-align">
-                            <a href="" class="orange-text text-darken-4">Ingredients</a>
+                            <a href="#sponge_cake" class="orange-text text-darken-4 modal-trigger">Ingredients</a>
                             <a href="" class="orange-text text-darken-4">Bake Now</a>
+                        </div>
+                        <div class="modal" id="sponge_cake">
+                           <div class="modal-content">
+                            <h6 class="orange-text text-darken-4">Ingredients</h6>
+                            <ul>
+                                <li>Flour</li>
+                                <li>Sugar</li>
+                                <li>Eggs</li>
+                                <li>Baking Powder</li>
+                                <li>Butter</li>
+                            </ul>
+                           </div>
                         </div>
                     </div>
                 </div>
@@ -520,6 +532,8 @@
         $('.collapsible').collapsible();
         $('.parallax').parallax();
         $('.sidenav').sidenav();
+        $('.modal').modal();
+
         })
          </script>
 </body>
